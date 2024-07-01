@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+}
+.header h1{
+  color: white;
+}
+.header p{
+  color: gray;
+}
+.maincontainer{
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  vertical-align: top;
+  
+}
+.coursecard{
+  display: inline-block;
+  border: solid black 2px;
+  text-align: center;
+  width: 20%;
+  padding: 10px;
+}
+ .coursecard img{
+  width: 100%;
+ }
+ .coursecard button{
+  background-color: black;
+  color: white;
+  padding: 2px;
+  padding-bottom:4px;
+ }
+ .footer{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  
+ }
+ .footer table{
+  display: inline;
+  text-align: center;
+ }
+ .footer__button{
+  margin-top: 5px;
+  margin-left: 30%;
+  background-color: yellow;
+  color: black;
+  width: 40%;
+  text-align: center;
+ }
